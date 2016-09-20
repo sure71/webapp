@@ -24,7 +24,7 @@
    {
      die('Could not connect: ' . mysql_error());
    }
-   echo 'Connection to MySQL database is successfull';
+   echo 'Connection to MySQL database successfull';
    mysql_close($conn);
 ?>
 
