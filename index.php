@@ -12,9 +12,9 @@
 		<h1><span class="off">Landscape </span></h1>
     </div>
 	<div id="content">
-    	<img class="picture" src="images/image1.jpg"/>
+    	<img class="picture" src="images/image2.jpg"/>
         <div class="contenttext">
-        	<h2>Template - Version 1.0.0 - 
+            <h2>Template - Version 1.0.1 - 
 <?php
    $dbhost = '10.0.15.23:3306';
    $dbuser = 'root';
