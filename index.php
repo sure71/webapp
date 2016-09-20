@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>LandscapeTitles</title>
+<title>Landscape</title>
 </head>
 
 <body>
@@ -12,9 +12,9 @@
 		<h1><span class="off">Landscape </span></h1>
     </div>
 	<div id="content">
-    	<img class="picture" src="images/image2.jpg"/>
+    	<img class="picture" src="images/image3.jpg"/>
         <div class="contenttext">
-            <h2>Template - Version 1.0.1 - 
+            <h2>Template - Version 1.0.2 -
 <?php
    $dbhost = '10.0.15.23:3306';
    $dbuser = 'root';
@@ -24,10 +24,13 @@
    {
      die('Could not connect: ' . mysql_error());
    }
-   echo 'Connection to MySQL database successfull';
+   echo 'Connection to MySQL database is successfull';
    mysql_close($conn);
-?></h2>
+?>
+
+</h2>
         </div>
+
     </div>
 </div>
 </body>
